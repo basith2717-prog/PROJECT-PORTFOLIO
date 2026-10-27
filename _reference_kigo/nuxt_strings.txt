@@ -1,0 +1,267 @@
+prose-p
+prose-a
+prose-blockquote
+code-inline
+prose-code-inline
+ProseCodeInline
+prose-em
+prose-h1
+prose-h2
+prose-h3
+prose-h4
+prose-h5
+prose-h6
+prose-hr
+prose-img
+prose-ul
+prose-ol
+prose-li
+prose-strong
+prose-table
+prose-thead
+prose-tbody
+prose-td
+prose-th
+prose-tr
+/api/_content
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.39 Safari/537.36
+nuxt-robots
+5.7.1
+/admin/*
+/es/admin/*
+/*?scrollUp=true
+/es/*?scrollUp=true
+/es/gracias
+/es/llamada-gracias
+/gracias
+/llamada-gracias
+/sitemap_index.xml
+index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
+noindex, nofollow
+max-age=14400, must-revalidate
+https://kigo.studio
+prefix_except_default
+default
+en-US
+es-MX
+i18n_redirected
+root
+absolute
+4abfe339-6c36-46e1-ab76-5ee10706f0c0
+/_nuxt/
+state
+once
+_errors
+serverRendered
+path
+pinia
+prerenderedAt
+Reactive
+$snuxt-i18n-meta
+$spage-transition-active
+$sheader-hidden
+$spostcard-navigation
+$ssite-config
+desktop
+mobile
+clipPath
+covered
+none
+_priority
+currentLocale
+defaultLocale
+name
+production
+Kigo
+https:\u002F\u002Fkigo.studio
+ShallowReactive
+\u002F
+projectStore
+loadLazyImages
+loadProjectImages
+loadLazyImagesMobile
+loadLazyImagesDesktop
+globalLoading
+routerKey
+servicesRoutesEs
+servicesRoutesEn
+projects
+app-development
+website-design
+business-ai
+ecommerce-development
+todos
+apps
+diseno-web
+ia-empresarial
+tiendas-virtuales
+image
+title
+subtitle
+filters
+category
+result
+llul
+Llul
+Design-led Shopify jewelry brand with automated workflows behind the scenes.
+business-automations
+value
+suffix
+label
+projectResults.llul
+usandplus
+Us & Plus
+Nonprofit discovery platform with verified profiles, direct donations, and streamlined onboarding.
+prefix
+projectResults.usandplus
+recken
+Recken
+B2B inventory and ordering hub empowering Recken and hardware retailers to stay in sync.
+projectResults.recken
+celtrev
+Celtrev Audiovisual
+Nuxt-powered site for Celtrev to showcase services and manage their own content.
+projectResults.celtrev
+artist-collaboration
+Artist Collaboration
+Shopify portal for artists to upload, manage, and sell their work in partnership with Studio Malek.
+projectResults.artistCollaboration
+jp-moreno
+JP Moreno
+Corporate website for a consultancy focused on strategy and business transformation.
+projectResults.jpMoreno
+pagoau
+Pago International
+pago-international-australia
+High-quality ergonomic office chairs for your workspace
+projectResults.pagoAustralia
+maremeva
+Mare Meva
+Jewelry ecommerce with curated collections and a streamlined shopping experience.
+projectResults.maremeva
+envimexico
+ENVIMÉXICO
+ENVIMÉXICO helps businesses comply with environmental regulations and adopt sustainable practices.
+projectResults.envimexico
+authentica
+Authentica
+Strategic consultancy helping startups grow through funding, finance, and tailored guidance.
+projectResults.authentica
+pagouk
+Pago International UK
+pago-international-uk
+Ergonomic office chairs designed for comfort and productivity
+projectResults.pagoUk
+geist
+Geist
+An immortal Aztec and his teen protégé race to save the world
+projectResults.geist
+finoasis
+FinOasis
+Wealth management firm offering personalized investment strategies for long-term financial growth.
+projectResults.finoasis
+finsolar
+Finsolar
+An easy way for businesses to adopt and invest in solar power
+projectResults.finsolar
+puntablanca
+Punta Blanca Resort
+punta-blanca
+Boutique Caribbean hotel offering a luxurious escape
+projectResults.puntaBlanca
+weraworkout
+wera-workout
+Wera Workout
+Unlock your fitness with subscription-based workouts
+projectResults.weraWorkout
+prmg
+PRMG
+Empowering global health through strategic marketing partnerships
+projectResults.prmg
+partnerinpaw
+partner-in-paw
+Everything your pet needs to be happy and healthy
+Partner In Paw
+projectResults.partnerInPaw
+brio
+Brío
+Intelligent field promotion that tracks real slot-machine performance with daily, actionable reports.
+projectResults.brio
+Connecting talent with startups
+projectResults.ftn
+hoogly
+Hoogly
+Creating workplaces where everyone feels safe, valued, and connected
+projectResults.hoogly
+artwall
+Art Wall by Studio Malek
+studio-malek-artwall
+Design your perfect wall with custom prints and frames
+projectResults.artwall
+studiomalek
+Studio Malek
+studio-malek
+High-quality, modern frames and prints at great prices
+projectResults.studioMalek
+campoazul
+campo-azul
+La Kermesse Campo Azul
+An exclusive event with flawless online invites—truly unmissable
+projectResults.campoAzul
+minu
+Empowering employees with payroll advancements and retention solutions
+projectResults.minu
+minuapp
+minu app
+minu-app
+Payroll advancements and retention solutions at your fingertips
+projectResults.minuApp
+personaliza
+studio-malek-custom
+Personaliza by Studio Malek
+Create unique, custom posters with ease
+projectResults.personaliza
+grupodomo
+Agencia Aduanal Grupo Domo
+agencia-aduanal-grupo-domo
+Customs solutions for fluid cross-border trade
+projectResults.grupoDomo
+vonovo
+Interactive single-page app with GPT integration
+projectResults.vonovo
+mueve
+Mueve
+On-demand freight services across Mexico
+projectResults.mueve
+mueveapp
+mueve-app
+Mueve app
+On-demand freight services, exclusively through the mobile app
+projectResults.mueveApp
+twentyfive
+Twenty-Five
+twenty-five
+Global marketing solutions with a focus on digital experiences
+projectResults.twentyFive
+zeero
+Zeero
+Effortless payments with optimized solutions
+projectResults.zeero
+pottsplanet
+Potts Planet
+potts-planet
+A cinematic showcase of personal art projects
+projectResults.pottsPlanet
+novomatic
+Novomatic
+Innovative reporting solutions for the gaming industry
+projectResults.novomatic
+pocketbook
+PocketBook
+Australia's most trusted personal finance app with over 800,000 users
+projectResults.pocketbook
+baja
+baja-underwater
+Baja Underwater
+Discover the underwater wonders of Baja California
+projectResults.bajaUnderwater

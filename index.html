@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mohammed Basith | Full-Stack Developer &amp; AI Engineer</title>
+  <meta name="description" content="Full-Stack Developer, AI Integrator &amp; MCA Candidate. Building structured, high-performance web applications and intelligent systems.">
+  <meta property="og:title" content="Mohammed Basith | Full-Stack Developer">
+  <meta property="og:description" content="Full-Stack Developer, AI Integrator &amp; MCA Candidate based in Ernakulam, Kerala.">
+  <meta property="og:image" content="/images/og-en.jpeg">
+  <meta property="og:url" content="https://mohammedbasith.dev">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='%23d62828'/><text x='50' y='64' font-size='42' font-family='serif' font-weight='bold' text-anchor='middle' fill='%23ffffff'>基</text></svg>">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Noto+Serif+JP:wght@400;600;700;900&family=Playfair+Display:ital,wght@0,600;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- Custom Magnetic Cursor -->
+  <div id="customCursor" aria-hidden="true">
+    <span class="cursor-label"></span>
+  </div>
+
+  <!-- Global Interactive Falling Sakura Canvas -->
+  <canvas id="sakuraCanvas" class="sakura-canvas" aria-hidden="true"></canvas>
+
+  <!-- Vertical Scrollbar Track -->
+  <div id="scrollbar-container" class="is-paper" aria-hidden="true">
+    <div id="scrollbar-thumb"></div>
+  </div>
+
+  <!-- Mobile Menu Overlay -->
+  <ul class="nav-dropdown-mobile" id="mobileMenu" role="menu" aria-hidden="true">
+    <li class="nav-dropdown-mobile__item" style="--i:0">
+      <div class="nav-dropdown-mobile__mask"><a href="#hero" class="mobile-link">Home</a></div>
+    </li>
+    <li class="nav-dropdown-mobile__item nav-dropdown-mobile__item--dropdown" style="--i:1">
+      <button class="nav-dropdown-mobile__wrapper" id="mobileServicesToggle" aria-expanded="false">
+        <div class="nav-dropdown-mobile__mask">
+          <span>Capabilities</span>
+          <svg class="nav-dropdown-mobile__plus" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg>
+        </div>
+      </button>
+      <div class="services-mobile">
+        <div class="services-mobile__panel">
+          <div class="services-mobile__grid">
+            <a href="#serviceItem1" class="services-mobile__item services-mobile__item--websites">
+              <span class="services-mobile__title" style="--chars:8">Web Dev</span>
+              <img src="/images/services/poster-websites.webp" alt="Web Development" width="640" height="960" loading="lazy">
+            </a>
+            <a href="#serviceItem3" class="services-mobile__item services-mobile__item--apps">
+              <span class="services-mobile__title" style="--chars:12">AI &amp; Python</span>
+              <img src="/images/services/poster-apps.webp" alt="AI Development" width="640" height="960" loading="lazy">
+            </a>
+            <a href="#serviceItem2" class="services-mobile__item services-mobile__item--ecommerce">
+              <span class="services-mobile__title" style="--chars:9">Full-Stack</span>
+              <img src="/images/services/poster-ecommerce.webp" alt="Full-Stack" width="640" height="960" loading="lazy">
+            </a>
+            <a href="#serviceItem4" class="services-mobile__item services-mobile__item--automations">
+              <span class="services-mobile__title" style="--chars:10">Automation</span>
+              <img src="/images/services/poster-automations.webp" alt="Automation" width="640" height="960" loading="lazy">
+            </a>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="nav-dropdown-mobile__item" style="--i:2">
+      <div class="nav-dropdown-mobile__mask"><a href="#projects" class="mobile-link">Projects</a></div>
+    </li>
+    <li class="nav-dropdown-mobile__item" style="--i:3">
+      <div class="nav-dropdown-mobile__mask"><a href="#experience" class="mobile-link">About</a></div>
+    </li>
+    <li class="nav-dropdown-mobile__item nav-dropdown-mobile__item--cta" style="--i:4">
+      <a href="#contact" class="contact-postcard-cta mobile-cta">
+        <span class="contact-postcard-cta__label">Get in Touch</span>
+        <span class="contact-postcard-cta__kanji">連絡</span>
+      </a>
+    </li>
+  </ul>
+
+  <!-- Services Mega-Menu Desktop -->
+  <div class="nav-dropdown" id="servicesMenu" role="region" aria-hidden="true">
+    <div class="nav-dropdown__divider"></div>
+    <div class="nav-dropdown__container">
+      <a href="#serviceItem1" class="nav-dropdown__item service-preview service-preview--websites" data-cursor="WEB DEV">
+        <span class="service-preview__title">Web<br>Development</span>
+        <div class="service-preview__art">
+          <img class="service-preview__background" src="/images/services/posters/websites-background-v2-768.webp" alt="" width="640" height="640" loading="lazy">
+          <img class="service-preview__subject service-menu-image" src="/images/services/posters/websites-subject-v3-640.webp" alt="Web Development" width="640" height="960" loading="lazy">
+        </div>
+      </a>
+      <a href="#serviceItem3" class="nav-dropdown__item service-preview service-preview--apps" data-cursor="AI &amp; PYTHON">
+        <span class="service-preview__title">AI &amp;<br>Python</span>
+        <div class="service-preview__art">
+          <img class="service-preview__background" src="/images/services/posters/apps-background-v2-768.webp" alt="" width="640" height="640" loading="lazy">
+          <img class="service-preview__subject service-menu-image" src="/images/services/posters/apps-subject-v4-640.webp" alt="AI Development" width="640" height="960" loading="lazy">
+        </div>
+      </a>
+      <a href="#serviceItem2" class="nav-dropdown__item service-preview service-preview--ecommerce" data-cursor="FULL-STACK">
+        <span class="service-preview__title">Full-<br>Stack</span>
+        <div class="service-preview__art">
+          <img class="service-preview__background" src="/images/services/posters/ecommerce-background-v2-768.webp" alt="" width="640" height="640" loading="lazy">
+          <img class="service-preview__subject service-menu-image" src="/images/services/posters/ecommerce-subject-v5-640.webp" alt="Full-Stack" width="640" height="960" loading="lazy">
+        </div>
+      </a>
+      <a href="#serviceItem4" class="nav-dropdown__item service-preview service-preview--automations" data-cursor="AUTOMATION">
+        <span class="service-preview__title">Workflow<br>Automation</span>
+        <div class="service-preview__art">
+          <img class="service-preview__background" src="/images/services/posters/automations-background-v2-768.webp" alt="" width="640" height="640" loading="lazy">
+          <img class="service-preview__subject service-menu-image" src="/images/services/posters/automations-subject-v2-640.webp" alt="Automation" width="640" height="960" loading="lazy">
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- Main Page Wrapper -->
+  <div id="__nuxt">
+
+    <!-- HEADER -->
+    <header class="header header--paper header--wide header--ready" id="mainHeader">
+      <div class="header__wrapper">
+        <nav>
+          <!-- Logo -->
+          <a href="#hero" class="header__logo-container" aria-label="Mohammed Basith Portfolio">
+            <svg class="header__logo" viewBox="0 0 125 32" fill="none" aria-label="Mohammed Basith">
+              <text x="0" y="24" font-family="'Kanit', sans-serif" font-weight="700" font-size="22" fill="currentColor" letter-spacing="-1">BASITH</text>
+              <circle cx="115" cy="16" r="6" fill="#d62828"/>
+            </svg>
+          </a>
+
+          <!-- Desktop Nav Links -->
+          <div class="header__navigation">
+            <div class="nav-item">
+              <div class="nav-item__mask">
+                <a href="#hero" class="nav-link">
+                  <span class="nav-item__dot"></span>
+                  Home
+                </a>
+              </div>
+            </div>
+            <div class="nav-item nav-item--dropdown" id="servicesDropdownTrigger">
+              <div class="nav-item__mask">
+                <div class="nav-item--dropdown default-cursor">
+                  <span class="nav-item__dot"></span>
+                  <button class="nav-link" aria-expanded="false" aria-controls="servicesMenu">
+                    Capabilities
+                    <div><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 6l4 4 4-4"/></svg></div>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="nav-item">
+              <div class="nav-item__mask">
+                <a href="#projects" class="nav-link">
+                  <span class="nav-item__dot"></span>
+                  Projects
+                </a>
+              </div>
+            </div>
+            <div class="nav-item">
+              <div class="nav-item__mask">
+                <a href="#experience" class="nav-link">
+                  <span class="nav-item__dot"></span>
+                  About
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: CTA + Language + Mobile Toggle -->
+          <div class="header__actions">
+            <!-- Language Switcher -->
+            <div class="language">
+              <svg class="language__icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true">
+                <circle cx="10" cy="10" r="8.5"/>
+                <path d="M10 1.5C10 1.5 7 5 7 10s3 8.5 3 8.5M10 1.5C10 1.5 13 5 13 10s-3 8.5-3 8.5M1.5 10h17"/>
+              </svg>
+              <a href="#" class="language__locale current" data-lang="en" aria-label="English" aria-current="true">EN</a>
+              <a href="#" class="language__locale" data-lang="jp" aria-label="Japanese">日</a>
+            </div>
+
+            <a href="#contact" class="contact-postcard-cta header__button" id="contactCta">
+              <span class="contact-postcard-cta__label">Get in Touch</span>
+              <span class="contact-postcard-cta__kanji">連絡</span>
+            </a>
+
+            <!-- Mobile hamburger -->
+            <div class="header__navigation-mobile">
+              <button class="header__menu-toggle" id="mobileMenuToggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobileMenu">
+                <svg viewBox="0 0 24 24" width="28" height="28" class="nav-dropdown-mobile__icon">
+                  <line class="hamburger-line hamburger-line--top" x1="3" y1="12" x2="21" y2="12"/>
+                  <line class="hamburger-line hamburger-line--bottom" x1="3" y1="12" x2="21" y2="12"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- MAIN PAGE CONTENT -->
+    <main class="home">
+
+      <!-- ===== HERO SECTION ===== -->
+      <div class="home__group">
+        <section class="hero" id="hero">
+
+          <!-- Misty landscape background -->
+          <div class="hero__landscape" aria-hidden="true">
+            <img src="/images/sakura/misty-landscape-v2.webp" alt="" width="1774" height="887" loading="eager" decoding="async">
+          </div>
+
+          <!-- Background sakura canvas petals -->
+          <div class="home-petals hero__back-petals" aria-hidden="true" id="heroPetals">
+            <!-- Animated petal divs injected by JS -->
+          </div>
+
+          
+        <!-- Cherry Blossom Branch hanging from top right -->
+        <div class="hero__branch" aria-hidden="true">
+          <img src="/images/sakura-hero-branch.png" alt="" width="736" height="1023" loading="eager" decoding="async">
+        </div>
+
+        <!-- Hero Title & Content -->
+          <div class="hero__content">
+            <div class="hero-title" id="heroTitle">
+              <div class="hero-title__above">
+                <svg class="spring-calligraphy hero__spring" viewBox="0 0 109 112" aria-hidden="true" focusable="false">
+                  <defs>
+                    <mask id="spr-stroke-0" x="0" y="0" width="109" height="112" maskUnits="userSpaceOnUse">
+                      <path class="spring-calligraphy__trace" d="M28.31,25.18c1.46,0.37,4.15,0.5,5.61,0.37c12.83-1.18,22.33-2.3,36.29-3.51c2.43-0.21,4.29-0.04,6.12,0.36" pathLength="1" fill="none" stroke="white" stroke-width="24" stroke-linecap="round" style="--delay:0s;--duration:0.178s;"/>
+                    </mask>
+                    <mask id="spr-stroke-1" x="0" y="0" width="109" height="112" maskUnits="userSpaceOnUse">
+                      <path class="spring-calligraphy__trace" d="M28.5,38.67c1.54,0.38,4.11,0.3,5.65,0.13c11.6-1.3,22.23-2.92,35.13-4.38c2.7-0.31,4.72-0.16,5.88,0.12" pathLength="1" fill="none" stroke="white" stroke-width="24" stroke-linecap="round" style="--delay:0.186s;--duration:0.169s;"/>
+                    </mask>
+                    <mask id="spr-stroke-2" x="0" y="0" width="109" height="112" maskUnits="userSpaceOnUse">
+                      <path class="spring-calligraphy__trace" d="M15.38,53.48c3.09,1.06,6.46,0.72,9.62,0.27c20.13-2.87,36.38-5.75,54.15-7.79c3.03-0.35,5.97-0.37,8.98,0.11" pathLength="1" fill="none" stroke="white" stroke-width="24" stroke-linecap="round" style="--delay:0.363s;--duration:0.245s;"/>
+                    </mask>
+                    <mask id="spr-stroke-3" x="0" y="0" width="109" height="112" maskUnits="userSpaceOnUse">
+                      <path class="spring-calligraphy__trace" d="M52.75,11.25c1,1.5,1.02,3.53,0.54,5.9C50.12,32.62,39.5,68,12.5,80.75" pathLength="1" fill="none" stroke="white" stroke-width="24" stroke-linecap="round" style="--delay:0.616s;--duration:0.304s;"/>
+                    </mask>
+                    <mask id="spr-stroke-4" x="0" y="0" width="109" height="112" maskUnits="userSpaceOnUse">
+                      <path class="spring-calligraphy__trace" d="M53.25,41.25c2.29,0.15,29.6,28.08,35.99,32.9c2.21,1.67,5.05,2.38,7.26,2.85" pathLength="1" fill="none" stroke="white" stroke-width="24" stroke-linecap="round" style="--delay:0.928s;--duration:0.275s;"/>
+                    </mask>
+                    <mask id="spr-stroke-5" x="0" y="0" width="109" height="112" maskUnits="userSpaceOnUse">
+                      <path class="spring-calligraphy__trace" d="M37.77,64.94c0.83,0.83,1.28,1.93,1.28,2.97c0,0.87-0.18,22.16-0.24,29.84c-0.01,1.59-0.02,2.59-0.02,2.68" pathLength="1" fill="none" stroke="white" stroke-width="24" stroke-linecap="round" style="--delay:1.211s;--duration:0.182s;"/>
+                    </mask>
+                    <mask id="spr-stroke-6" x="0" y="0" width="109" height="112" maskUnits="userSpaceOnUse">
+                      <path class="spring-calligraphy__trace spring-calligraphy__trace--corner" d="M39.76,67.17c6.94-0.86,24.26-3.55,25.85-3.68c1.67-0.13,3.11,1.38,3.11,2.72c0,1.26-0.16,20.65-0.24,29.04c-0.02,2.16-0.03,3.57-0.03,3.73" pathLength="1" fill="none" stroke="white" stroke-width="24" stroke-linecap="round" style="--delay:1.401s;--duration:0.279s;"/>
+                    </mask>
+                  </defs>
+                  <g mask="url(#spr-stroke-0)"><path d="M27.5 20.6 C29 19.8 33 21.3 34.2 23 C44 22.8 59 19.8 68.8 18.7 C73.4 17.9 77.7 19 81.2 23.8 C78.1 24.9 77.7 25.5 73.4 25.4 C60 24.9 45 28.2 32.3 30.3 C28.5 31 25.9 29.8 25.7 27.2 C25.5 24.8 26 22.7 27.5 20.6 Z" fill="currentColor"/></g>
+                  <g mask="url(#spr-stroke-1)"><path d="M28.6 33.1 C31.4 32.8 33.6 35.1 36.4 35 C47.5 33.8 59 30.3 67.3 29.8 C72.5 29.5 76.8 32 77.3 35.2 C77.8 38 74.5 39.1 70.8 38.5 C58.4 36.9 43.7 41.1 32.6 43 C28.9 43.6 26.3 42.2 26.8 38.3 C27 36.1 27.8 34.4 28.6 33.1 Z" fill="currentColor"/></g>
+                  <g mask="url(#spr-stroke-2)"><path d="M15.2 47.4 C18.7 47.6 20.8 50.7 25.4 49.7 C45.8 46.5 61.8 43.6 76 41.8 C83.5 40.9 88.3 43.7 93.1 50.2 C87.8 51.4 85.6 50.9 81.7 51 C66.3 49.5 41.8 55.8 24.1 58.8 C18.5 59.9 12.2 59.2 12.8 54.1 C13.1 51.5 14.3 49.2 15.2 47.4 Z" fill="currentColor"/></g>
+                  <g mask="url(#spr-stroke-3)"><path d="M48 5.8 C52.4 5.4 58.8 8.4 59.3 12.2 C59.5 19.4 55 35.3 50.2 46 C43.5 60.8 28.3 74.3 8.3 84.7 C23.5 69.6 33.4 56.3 39.4 41 C46.2 23.2 49.5 12.4 48 5.8 Z" fill="currentColor"/></g>
+                  <g mask="url(#spr-stroke-4)"><path d="M49 40.6 C52 40.8 57 44.4 61.8 49.5 C72.5 59.1 85.2 67.1 96.8 71.6 C100 73 102.4 76.4 103 78.6 C98.4 79 93.5 79.2 89.1 78.8 C82.8 78.6 78.3 73.3 73.6 67.9 C63 55.5 58 49.6 49 44.4 Z" fill="currentColor"/></g>
+                  <g mask="url(#spr-stroke-5)"><path d="M34.4 61.8 C38 62.2 42.5 64.2 43.5 67.8 C44.1 70.6 42.6 76.7 42.7 83.8 L43.1 97 C43.4 103 40.5 105.4 37.6 104.9 C35.1 104.2 35.8 98 35.9 95 L36 72 C36 67 35.2 64.5 34.4 61.8 Z" fill="currentColor"/></g>
+                  <g mask="url(#spr-stroke-6)"><path d="M39 64.5 C48 64 58 60.7 63.5 59.6 C66.8 58.3 71.2 60.4 73.2 63.4 C75 65.3 73 69.7 72.2 74.1 C71.3 83 74 93 71.8 100 C70.9 103.8 66.3 105.1 64.9 102.5 C63.9 100.2 65.3 96.3 65.1 91.6 L65.3 69.5 C65.3 68.1 64.1 67.4 62.4 67.7 L43 71.1 C40.1 70.6 39.4 67.2 39 64.5 Z" fill="currentColor"/></g>
+                </svg>
+              </div>
+
+              <h1 class="hero-title__heading">
+                <span class="visually-hidden">Make your code efficient. Make your apps intelligent. Make your systems automatic.</span>
+                <span class="hero-title__line" aria-hidden="true">
+                  <span class="hero-title__prefix">Make your</span>
+                </span>
+                <span class="hero-title__line hero-title__line--rotating" aria-hidden="true">
+                  <span class="hero-title__word-mask">
+                    <span class="hero-title__word" id="rotatingWord">code</span>
+                  </span>
+                  <em class="hero-title__accent">
+                    <span class="hero-title__accent-text" id="rotatingAccent">efficient</span>
+                  </em>
+                  <span class="hero-title__sizer" aria-hidden="true">
+                    <span>code <em class="hero-title__accent">efficient</em></span>
+                    <span>apps <em class="hero-title__accent">intelligent</em></span>
+                    <span>systems <em class="hero-title__accent">automatic</em></span>
+                  </span>
+                </span>
+              </h1>
+
+              <canvas class="hero-title__petals" id="petalCanvas" aria-hidden="true"></canvas>
+            </div>
+
+            <p class="hero__description">
+              Full-stack systems that solve real problems. AI integrations that amplify your product. 
+              Python automation that gives you your day back.
+            </p>
+          </div>
+        </section>
+
+        <!-- ===== CLIENTS / TECH STACK SECTION ===== -->
+        <section class="home-clients" id="clients" aria-labelledby="clients-heading">
+
+          <div class="home-clients__head">
+            <p class="home-clients__haiku" lang="ja" aria-hidden="true">
+              希望なら、<br>何でも出来る
+            </p>
+
+            <div class="home-reel home-clients__reel" id="studioReel">
+              <div class="home-reel__stage" id="reelStage">
+                <button type="button" class="home-reel__close" id="reelClose" aria-label="Close reel">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="m6 6 12 12M6 18 18 6"/>
+                  </svg>
+                </button>
+              </div>
+              <button type="button" class="home-reel__poster" id="reelPoster" aria-label="Play the portfolio reel">
+                <span class="home-reel__title" aria-hidden="true">
+                  <span class="home-reel__name">Basith</span>
+                  <span class="home-reel__year">Dev</span>
+                  <span class="home-reel__dot"></span>
+                </span>
+                <span class="home-reel__play" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false"><path d="M7 4.5v15l12.5-7.5z"/></svg>
+                </span>
+              </button>
+            </div>
+
+            <h2 id="clients-heading" class="home-clients__title" aria-label="Technologies I work with">
+              <span class="home-clients__title-text">
+                <span class="home-clients__title-line"><span>Technologies</span></span>
+                <span class="home-clients__title-line"><span>I work with</span></span>
+              </span>
+            </h2>
+          </div>
+
+          <div class="home-clients__layout">
+            <img src="/images/illustrations/clients-floral-background-v1.webp" alt="" width="768" height="512" loading="lazy" class="home-clients__background" aria-hidden="true">
+
+            <div class="home-petals home-petals--background" aria-hidden="true" id="clientsPetals"></div>
+
+            <div class="home-clients__logos">
+              <img src="/images/illustrations/clients-floral-background-v1.webp" alt="" width="768" height="512" loading="lazy" class="home-clients__logo-flowers" aria-hidden="true">
+              <ul class="home-clients__grid">
+                <li class="home-clients__cell">
+                  <div class="home-clients__identity">
+                    <div class="home-clients__mark">
+                      <img src="/images/clients/gobierno-de-mexico.webp" alt="Python" width="290" height="104" loading="lazy">
+                    </div>
+                  </div>
+                </li>
+                <li class="home-clients__cell">
+                  <div class="home-clients__identity">
+                    <div class="home-clients__mark">
+                      <img src="/images/clients/fifa.webp" alt="React" width="290" height="94" loading="lazy">
+                    </div>
+                  </div>
+                </li>
+                <li class="home-clients__cell">
+                  <div class="home-clients__identity">
+                    <div class="home-clients__mark">
+                      <img src="/images/clients/televisa.svg" alt="Django" width="188" height="32" loading="lazy">
+                    </div>
+                  </div>
+                </li>
+                <li class="home-clients__cell">
+                  <div class="home-clients__identity">
+                    <div class="home-clients__mark">
+                      <img src="/images/clients/hollywood-wordmark.svg" alt="Next.js" width="193" height="42" loading="lazy">
+                    </div>
+                  </div>
+                </li>
+                <li class="home-clients__cell">
+                  <div class="home-clients__identity">
+                    <div class="home-clients__mark">
+                      <img src="/images/clients/tequila-campo-azul.webp" alt="PostgreSQL" width="290" height="143" loading="lazy">
+                    </div>
+                  </div>
+                </li>
+                <li class="home-clients__cell">
+                  <div class="home-clients__identity">
+                    <div class="home-clients__mark">
+                      <img src="/images/clients/wera-workout.webp" alt="TypeScript" width="290" height="85" loading="lazy">
+                    </div>
+                  </div>
+                </li>
+                <li class="home-clients__cell">
+                  <div class="home-clients__identity">
+                    <div class="home-clients__mark">
+                      <img src="/images/clients/tu-potencial.webp" alt="Docker" width="145" height="42" loading="lazy">
+                    </div>
+                  </div>
+                </li>
+                <li class="home-clients__cell home-clients__cell--more">
+                  <div class="home-clients__identity">
+                    <svg class="more-calligraphy home-clients__kanji" viewBox="0 0 109 112" aria-hidden="true" focusable="false">
+                      <defs>
+                        <mask id="more-stroke-0" x="0" y="0" width="109" height="112" maskUnits="userSpaceOnUse">
+                          <path class="more-calligraphy__trace" d="M31.75,11.25c0.08,1.09-0.02,1.81-0.46,2.82C29.36,18.45,24.34,26.08,18.25,31" pathLength="1" fill="none" stroke="white" stroke-width="24" stroke-linecap="round" style="--delay:0s;--duration:0.162s;"/>
+                        </mask>
+                        <mask id="more-stroke-1" x="0" y="0" width="109" height="112" maskUnits="userSpaceOnUse">
+                          <path class="more-calligraphy__trace" d="M29.23,22.04c2.94,0,11.09-1.69,16.52-2.28c1.42-0.16,2.62-0.13,3.75,0" pathLength="1" fill="none" stroke="white" stroke-width="24" stroke-linecap="round" style="--delay:0.17s;--duration:0.126s;"/>
+                        </mask>
+                        <mask id="more-stroke-2" x="0" y="0" width="109" height="112" maskUnits="userSpaceOnUse">
+                          <path class="more-calligraphy__trace" d="M37.14,23.96c1.74,1.45,4.48,7.5,4.92,9.76" pathLength="1" fill="none" stroke="white" stroke-width="24" stroke-linecap="round" style="--delay:0.304s;--duration:0.094s;"/>
+                        </mask>
+                      </defs>
+                      <g mask="url(#more-stroke-0)"><path d="M28 7 C31 7 36 10 35 13 C33 20 24 29 15 34 C21 26 29 15 28 7 Z" fill="currentColor"/></g>
+                      <g mask="url(#more-stroke-1)"><path d="M28 18 C31 19 34 19 38 18 L46 16 C49 15 52 17 53 21 C50 23 47 22 44 22 L32 25 C28 26 26 23 28 18 Z" fill="currentColor"/></g>
+                      <g mask="url(#more-stroke-2)"><path d="M34 23 C38 23 44 28 46 32 C47 36 43 38 40 35 C39 31 37 27 34 23 Z" fill="currentColor"/></g>
+                    </svg>
+                    <span class="home-clients__more">and more</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <figure class="home-clients__figure" aria-hidden="true">
+              <div class="client-dancer" aria-hidden="true">
+                <img class="client-dancer__pose" src="/images/illustrations/clients-dance-pose-1-v6.webp" alt="" width="1024" height="1536" loading="lazy" style="opacity:1;">
+                <img class="client-dancer__pose" src="/images/illustrations/clients-dance-pose-2-v6.webp" alt="" width="1024" height="1536" loading="lazy" style="opacity:0;">
+              </div>
+            </figure>
+          </div>
+
+        </section>
+
+        <section class="home__services services" lang="en" aria-labelledby="services-heading"><h2 id="services-heading" class="visually-hidden">Services</h2><div id="servicesList" class="services__list"><article id="serviceItem1" class="services__item" aria-labelledby="poster-title-websites" style="z-index: 1;"><a href="#contact" class="service-poster service-poster--websites" aria-label="Build your website"><div class="service-poster__paper"><h3 id="poster-title-websites" class="service-poster__title"><span>Websites</span></h3><div class="service-poster__art" aria-hidden="true"><img class="service-poster__background" src="/images/services/posters/websites-background-v2-768.webp" alt="" width="1024" height="1024" loading="lazy"><img class="service-poster__subject" src="/images/services/posters/websites-subject-v3-640.webp" alt="Websites" width="1024" height="1536" loading="lazy"></div><div class="service-poster__copy"><ul class="service-poster__features"><li class="service-poster__feature"><p class="service-poster__metric"><span>+20<small>%</small></span><span class="service-poster__metric-label">faster</span></p><div class="service-poster__benefit"><h4>Speed sells</h4><p>Make your pages feel instant so people stay longer and reach out more.</p></div></li><li class="service-poster__feature"><p class="service-poster__metric"><span>+23<small>%</small></span><span class="service-poster__metric-label">leads</span></p><div class="service-poster__benefit"><h4>Customers find you</h4><p>We structure and code your site so buyers find you on Google and even when they ask an AI.</p></div></li><li class="service-poster__feature"><p class="service-poster__metric"><span>+12<small>%</small></span><span class="service-poster__metric-label">sales</span></p><div class="service-poster__benefit"><h4>Design that builds trust</h4><p>Look established with a custom design and clear message so people feel safe to contact or buy.</p></div></li></ul><span class="service-poster__cta"><span class="service-poster__cta-label">Build your website</span><span class="service-poster__cta-kanji" lang="ja" aria-hidden="true">押</span></span></div></div></a></article><article id="serviceItem2" class="services__item" aria-labelledby="poster-title-ecommerce" style="z-index: 2;"><a href="#contact" class="service-poster service-poster--ecommerce" aria-label="Build your ecommerce"><div class="service-poster__paper"><h3 id="poster-title-ecommerce" class="service-poster__title"><span>Ecommerce</span></h3><div class="service-poster__art" aria-hidden="true"><img class="service-poster__background" src="/images/services/posters/ecommerce-background-v2-768.webp" alt="" width="1024" height="1024" loading="lazy"><img class="service-poster__subject" src="/images/services/posters/ecommerce-subject-v5-640.webp" alt="Ecommerce" width="1024" height="1536" loading="lazy"></div><div class="service-poster__copy"><ul class="service-poster__features"><li class="service-poster__feature"><p class="service-poster__metric"><span>+13<small>%</small></span><span class="service-poster__metric-label">orders</span></p><div class="service-poster__benefit"><h4>More orders</h4><p>Give shoppers clear product pages and a smooth mobile checkout so more visits end in a purchase.</p></div></li><li class="service-poster__feature"><p class="service-poster__metric"><span>+16<small>%</small></span><span class="service-poster__metric-label">in order</span></p><div class="service-poster__benefit"><h4>Bigger carts</h4><p>Lift order size with bundles, subscriptions, and smart follow-ups that bring customers back.</p></div></li><li class="service-poster__feature"><p class="service-poster__metric"><span>-26<small>%</small></span><span class="service-poster__metric-label">costs</span></p><div class="service-poster__benefit"><h4>Less busywork</h4><p>Connect inventory, shipping, taxes, and returns so orders flow and operating costs drop.</p></div></li></ul><span class="service-poster__cta"><span class="service-poster__cta-label">Build your ecommerce</span><span class="service-poster__cta-kanji" lang="ja" aria-hidden="true">押</span></span></div></div></a></article><article id="serviceItem3" class="services__item" aria-labelledby="poster-title-apps" style="z-index: 3;"><a href="#contact" class="service-poster service-poster--apps" aria-label="Build your app"><div class="service-poster__paper"><h3 id="poster-title-apps" class="service-poster__title"><span>Apps</span></h3><div class="service-poster__art" aria-hidden="true"><img class="service-poster__background" src="/images/services/posters/apps-background-v2-768.webp" alt="" width="1024" height="1024" loading="lazy"><img class="service-poster__subject" src="/images/services/posters/apps-subject-v4-640.webp" alt="Apps" width="1024" height="1536" loading="lazy"></div><div class="service-poster__copy"><ul class="service-poster__features"><li class="service-poster__feature"><p class="service-poster__metric"><span>+24<small>%</small></span><span class="service-poster__metric-label">reorders</span></p><div class="service-poster__benefit"><h4>Next-level growth</h4><p>Launch a branded app that turns customers into members with subscriptions, loyalty, and in-app offers. Own your channel, reduce churn, and lift repeat revenue.</p></div></li><li class="service-poster__feature"><p class="service-poster__metric"><span>+40<small>%</small></span><span class="service-poster__metric-label">new users</span></p><div class="service-poster__benefit"><h4>More customers</h4><p>Publish on iOS, Android, and web from one codebase. Get discovered in app stores, re-engage with push, and stay top of mind between purchases.</p></div></li></ul><span class="service-poster__cta"><span class="service-poster__cta-label">Build your app</span><span class="service-poster__cta-kanji" lang="ja" aria-hidden="true">押</span></span></div></div></a></article><article id="serviceItem4" class="services__item" aria-labelledby="poster-title-automations" style="z-index: 4;"><a href="#contact" class="service-poster service-poster--automations" aria-label="Automate your work"><div class="service-poster__paper"><h3 id="poster-title-automations" class="service-poster__title"><span>Automations</span></h3><div class="service-poster__art" aria-hidden="true"><img class="service-poster__background" src="/images/services/posters/automations-background-v2-768.webp" alt="" width="1024" height="1024" loading="lazy"><img class="service-poster__subject" src="/images/services/posters/automations-subject-v2-640.webp" alt="Automations" width="1024" height="1536" loading="lazy"></div><div class="service-poster__copy"><ul class="service-poster__features"><li class="service-poster__feature"><p class="service-poster__metric"><span>-35<small>%</small></span><span class="service-poster__metric-label">costs</span></p><div class="service-poster__benefit"><h4>Save time and money</h4><p>Automate invoice matching, lead routing, and weekly reports.</p></div></li><li class="service-poster__feature"><p class="service-poster__metric"><span>+10<small>%</small></span><span class="service-poster__metric-label">revenue</span></p><div class="service-poster__benefit"><h4>Answers from your data</h4><p>Spot issues early, forecast what’s next, and plan with confidence.</p></div></li><li class="service-poster__feature"><p class="service-poster__metric"><span>+15<small>%</small></span><span class="service-poster__metric-label">profit</span></p><div class="service-poster__benefit"><h4>Start small, prove value</h4><p>Launch one workflow, measure the result, then expand to the rest.</p></div></li></ul><span class="service-poster__cta"><span class="service-poster__cta-label">Automate your work</span><span class="service-poster__cta-kanji" lang="ja" aria-hidden="true">押</span></span></div></div></a></article></div></section>
+      </div><!-- /.home__group -->
+
+      <!-- ===== WORK / PROJECTS SECTION ===== -->
+      <div class="home__content" id="projects">
+
+        <section class="home-work p-wrap" aria-labelledby="work-section-heading">
+          <div class="home-work__head" data-reveal="title">
+            <span class="home-work__eyebrow" aria-hidden="true" lang="ja">作品集</span>
+            <h2 id="work-section-heading" class="p-title p-title--section">
+              <span class="p-title__mask">
+                <span class="p-title__text">Selected <em>work</em></span>
+              </span>
+            </h2>
+            <p class="home-work__description">Projects that solve real problems for real users.</p>
+          </div>
+
+          <!-- Project Filters -->
+          <div class="home-work__filters" role="tablist" aria-label="Filter projects">
+            <button class="work-filter work-filter--active" role="tab" aria-selected="true" data-filter="all">All</button>
+            <button class="work-filter" role="tab" aria-selected="false" data-filter="web">Web Dev</button>
+            <button class="work-filter" role="tab" aria-selected="false" data-filter="ai">AI / Python</button>
+            <button class="work-filter" role="tab" aria-selected="false" data-filter="fullstack">Full-Stack</button>
+          </div>
+
+          <!-- Projects Grid -->
+          <ul class="home-work__grid" role="list" id="projectsGrid">
+
+            <!-- Project 1: StudyMate AI -->
+            <li class="work-card" data-tags="ai,fullstack" data-reveal style="--i:0">
+              <article class="work-card__inner">
+                <a href="#" class="work-card__image-link" data-cursor="VIEW PROJECT" aria-label="StudyMate AI">
+                  <div class="work-card__image">
+                    <img src="/images/projects/project-llul.webp" alt="StudyMate AI" width="480" height="720" loading="lazy">
+                  </div>
+                </a>
+                <div class="work-card__meta">
+                  <div class="work-card__tags">
+                    <span class="work-tag">AI</span>
+                    <span class="work-tag">Python</span>
+                    <span class="work-tag">React</span>
+                  </div>
+                  <h3 class="work-card__title">StudyMate AI</h3>
+                  <p class="work-card__subtitle">AI-powered study assistant with adaptive quizzes, document analysis, and personalized learning paths.</p>
+                  <div class="work-card__result">
+                    <span class="result-value">3K+</span>
+                    <span class="result-label">Active users</span>
+                  </div>
+                </div>
+              </article>
+            </li>
+
+            <!-- Project 2: AI Code Reviewer -->
+            <li class="work-card" data-tags="ai,fullstack" data-reveal style="--i:1">
+              <article class="work-card__inner">
+                <a href="#" class="work-card__image-link" data-cursor="VIEW PROJECT" aria-label="AI Code Reviewer">
+                  <div class="work-card__image">
+                    <img src="/images/projects/project-usplus.webp" alt="AI Code Reviewer" width="480" height="720" loading="lazy">
+                  </div>
+                </a>
+                <div class="work-card__meta">
+                  <div class="work-card__tags">
+                    <span class="work-tag">Gemini API</span>
+                    <span class="work-tag">FastAPI</span>
+                  </div>
+                  <h3 class="work-card__title">AI Code Reviewer</h3>
+                  <p class="work-card__subtitle">Real-time code review tool with Gemini-powered suggestions, security checks, and performance analysis.</p>
+                  <div class="work-card__result">
+                    <span class="result-value">95%</span>
+                    <span class="result-label">Accuracy</span>
+                  </div>
+                </div>
+              </article>
+            </li>
+
+            <!-- Project 3: Inventory System -->
+            <li class="work-card" data-tags="fullstack,web" data-reveal style="--i:2">
+              <article class="work-card__inner">
+                <a href="#" class="work-card__image-link" data-cursor="VIEW PROJECT" aria-label="Smart Inventory">
+                  <div class="work-card__image">
+                    <img src="/images/projects/project-recken.webp" alt="Smart Inventory" width="480" height="720" loading="lazy">
+                  </div>
+                </a>
+                <div class="work-card__meta">
+                  <div class="work-card__tags">
+                    <span class="work-tag">Django</span>
+                    <span class="work-tag">PostgreSQL</span>
+                  </div>
+                  <h3 class="work-card__title">Smart Inventory</h3>
+                  <p class="work-card__subtitle">B2B inventory management and ordering hub for hardware retailers with real-time sync.</p>
+                  <div class="work-card__result">
+                    <span class="result-value">40%</span>
+                    <span class="result-label">Faster ops</span>
+                  </div>
+                </div>
+              </article>
+            </li>
+
+            <!-- Project 4: Portfolio Website -->
+            <li class="work-card" data-tags="web" data-reveal style="--i:3">
+              <article class="work-card__inner">
+                <a href="#" class="work-card__image-link" data-cursor="VIEW PROJECT" aria-label="Portfolio Website">
+                  <div class="work-card__image">
+                    <img src="/images/projects/project-celtrev.webp" alt="Portfolio Website" width="320" height="480" loading="lazy">
+                  </div>
+                </a>
+                <div class="work-card__meta">
+                  <div class="work-card__tags">
+                    <span class="work-tag">Next.js</span>
+                    <span class="work-tag">GSAP</span>
+                  </div>
+                  <h3 class="work-card__title">Design Portfolio</h3>
+                  <p class="work-card__subtitle">Nuxt-powered site with custom animations and content management for a media production company.</p>
+                  <div class="work-card__result">
+                    <span class="result-value">+40%</span>
+                    <span class="result-label">Engagement</span>
+                  </div>
+                </div>
+              </article>
+            </li>
+
+            <!-- Project 5: Field Analytics -->
+            <li class="work-card" data-tags="ai,fullstack" data-reveal style="--i:4">
+              <article class="work-card__inner">
+                <a href="#" class="work-card__image-link" data-cursor="VIEW PROJECT" aria-label="Field Analytics">
+                  <div class="work-card__image">
+                    <img src="/images/projects/project-brio.webp" alt="Field Analytics" width="320" height="480" loading="lazy">
+                  </div>
+                </a>
+                <div class="work-card__meta">
+                  <div class="work-card__tags">
+                    <span class="work-tag">Python</span>
+                    <span class="work-tag">ML</span>
+                  </div>
+                  <h3 class="work-card__title">Field Analytics</h3>
+                  <p class="work-card__subtitle">Intelligent field promotion tracker with daily ML-powered reports and actionable insights.</p>
+                  <div class="work-card__result">
+                    <span class="result-value">90%</span>
+                    <span class="result-label">Report accuracy</span>
+                  </div>
+                </div>
+              </article>
+            </li>
+
+            <!-- Project 6: E-Commerce Platform -->
+            <li class="work-card" data-tags="fullstack,web" data-reveal style="--i:5">
+              <article class="work-card__inner">
+                <a href="#" class="work-card__image-link" data-cursor="VIEW PROJECT" aria-label="E-Commerce Platform">
+                  <div class="work-card__image">
+                    <img src="/images/projects/project-minu.webp" alt="E-Commerce Platform" width="480" height="720" loading="lazy">
+                  </div>
+                </a>
+                <div class="work-card__meta">
+                  <div class="work-card__tags">
+                    <span class="work-tag">React</span>
+                    <span class="work-tag">Node.js</span>
+                    <span class="work-tag">Stripe</span>
+                  </div>
+                  <h3 class="work-card__title">E-Commerce Platform</h3>
+                  <p class="work-card__subtitle">Full-stack ecommerce with curated collections, streamlined checkout, and admin dashboard.</p>
+                  <div class="work-card__result">
+                    <span class="result-value">100%</span>
+                    <span class="result-label">Uptime</span>
+                  </div>
+                </div>
+              </article>
+            </li>
+
+          </ul>
+        </section>
+
+        <!-- ===== EXPERIENCE SECTION ===== -->
+        <section class="home-team p-wrap" id="experience" aria-labelledby="team-heading">
+          <div class="home-team__head" data-reveal="title">
+            <span class="home-team__eyebrow" aria-hidden="true" lang="ja">経験</span>
+            <h2 id="team-heading" class="p-title p-title--section">
+              <span class="p-title__mask">
+                <span class="p-title__text">Experience &amp; <em>Education</em></span>
+              </span>
+            </h2>
+          </div>
+
+          <div class="home-team__grid">
+            <article class="team-card" data-reveal style="--i:0">
+              <div class="team-card__role">Freelance Full-Stack Developer</div>
+              <div class="team-card__name">Self-Employed</div>
+              <div class="team-card__period">2023 – Present</div>
+              <p class="team-card__bio">Building custom web applications, AI integrations, and automation scripts for clients. Focused on Python/Django back-end systems and React front-end development.</p>
+              <ul class="team-card__skills">
+                <li>Python / Django</li>
+                <li>React / Next.js</li>
+                <li>PostgreSQL</li>
+                <li>Docker</li>
+              </ul>
+            </article>
+
+            <article class="team-card" data-reveal style="--i:1">
+              <div class="team-card__role">MCA Student</div>
+              <div class="team-card__name">Rajagiri School of Engineering &amp; Technology</div>
+              <div class="team-card__period">2024 – 2026</div>
+              <p class="team-card__bio">Master of Computer Applications focusing on advanced algorithms, machine learning, distributed systems, and enterprise application development.</p>
+              <ul class="team-card__skills">
+                <li>Machine Learning</li>
+                <li>Distributed Systems</li>
+                <li>Enterprise Java</li>
+                <li>Data Science</li>
+              </ul>
+            </article>
+
+            <article class="team-card" data-reveal style="--i:2">
+              <div class="team-card__role">BSc Computer Science</div>
+              <div class="team-card__name">MES College, Ernakulam</div>
+              <div class="team-card__period">2021 – 2024</div>
+              <p class="team-card__bio">Bachelor's degree with strong foundation in programming, data structures, databases, and software engineering principles.</p>
+              <ul class="team-card__skills">
+                <li>C / C++ / Java</li>
+                <li>Database Design</li>
+                <li>Web Technologies</li>
+                <li>Algorithms</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <!-- ===== FAQ / ABOUT SECTION ===== -->
+        <section class="service-faq p-wrap" id="faq" aria-labelledby="home-faqs-heading">
+          <div class="service-faq__head">
+            <h2 class="p-title p-title--section" id="home-faqs-heading" data-reveal="title">
+              <span class="p-title__mask">
+                <span class="p-title__text">Frequently asked <em>questions</em></span>
+              </span>
+            </h2>
+
+            <!-- Omamori charm illustration -->
+            <div class="service-faq__omamori" aria-hidden="true">
+              <img src="/images/home/faqs/omamori-sakura-v1.webp" alt="" width="1024" height="1536" loading="lazy" draggable="false">
+            </div>
+
+            <!-- Floral background -->
+            <div class="home__faq-flowers" aria-hidden="true">
+              <img src="/images/illustrations/clients-floral-background-v1.webp" alt="" width="768" height="512" loading="lazy" class="home__faq-flowers--upper" draggable="false">
+              <img src="/images/illustrations/clients-floral-background-v1.webp" alt="" width="768" height="512" loading="lazy" class="home__faq-flowers--middle" draggable="false">
+              <img src="/images/illustrations/clients-floral-background-v1.webp" alt="" width="768" height="512" loading="lazy" class="home__faq-flowers--lower" draggable="false">
+            </div>
+          </div>
+
+          <!-- FAQ List -->
+          <ul class="faq faq--uniform service-faq__list" id="faqList">
+            <li class="faq__item is-open" style="--i:0">
+              <span class="service-faq__shoulder" aria-hidden="true">
+                <svg class="service-faq__corner service-faq__corner--top" viewBox="0 0 20 20"><path d="M20 .5L.5 20"/></svg>
+                <svg class="service-faq__corner service-faq__corner--bottom" viewBox="0 0 20 20"><path d="M.5 0L20 19.5"/></svg>
+              </span>
+              <span class="service-faq-ornament" aria-hidden="true">
+                <span class="service-faq-ornament__frame"></span>
+                <span class="service-faq-ornament__shoulder">
+                  <svg class="service-faq-ornament__cut service-faq-ornament__cut--top" viewBox="0 0 14 14"><path d="M14 .5L.5 14"/></svg>
+                  <svg class="service-faq-ornament__cut service-faq-ornament__cut--bottom" viewBox="0 0 14 14"><path d="M.5 0L14 13.5"/></svg>
+                </span>
+                <svg class="service-faq-ornament__corner service-faq-ornament__corner--top" viewBox="0 0 24 24"><path d="M1 4.5H19.5V23M1 10.5H13.5V17.5H7.5"/></svg>
+                <svg class="service-faq-ornament__corner service-faq-ornament__corner--bottom" viewBox="0 0 24 24"><path d="M1 4.5H19.5V23M1 10.5H13.5V17.5H7.5"/></svg>
+              </span>
+              <span class="service-faq__eyelet" aria-hidden="true"></span>
+              <h3 class="faq__heading">
+                <button id="faq-q0" type="button" class="faq__question" aria-expanded="true" aria-controls="faq-a0">
+                  <span>What tech stack do you work with?</span>
+                  <span class="faq__icon" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div id="faq-a0" class="faq__answer" role="region" aria-labelledby="faq-q0">
+                <div class="faq__answer-inner">
+                  <p>My primary stack is Python (Django/FastAPI), React/Next.js, TypeScript, and PostgreSQL. I also work with Docker, Redis, Celery, and various AI/ML libraries including LangChain, OpenAI API, and Gemini. For deployment, I use Vercel, Railway, and AWS.</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="faq__item" style="--i:1">
+              <span class="service-faq__shoulder" aria-hidden="true">
+                <svg class="service-faq__corner service-faq__corner--top" viewBox="0 0 20 20"><path d="M20 .5L.5 20"/></svg>
+                <svg class="service-faq__corner service-faq__corner--bottom" viewBox="0 0 20 20"><path d="M.5 0L20 19.5"/></svg>
+              </span>
+              <span class="service-faq-ornament" aria-hidden="true">
+                <span class="service-faq-ornament__frame"></span>
+                <span class="service-faq-ornament__shoulder">
+                  <svg class="service-faq-ornament__cut service-faq-ornament__cut--top" viewBox="0 0 14 14"><path d="M14 .5L.5 14"/></svg>
+                  <svg class="service-faq-ornament__cut service-faq-ornament__cut--bottom" viewBox="0 0 14 14"><path d="M.5 0L14 13.5"/></svg>
+                </span>
+                <svg class="service-faq-ornament__corner service-faq-ornament__corner--top" viewBox="0 0 24 24"><path d="M1 4.5H19.5V23M1 10.5H13.5V17.5H7.5"/></svg>
+                <svg class="service-faq-ornament__corner service-faq-ornament__corner--bottom" viewBox="0 0 24 24"><path d="M1 4.5H19.5V23M1 10.5H13.5V17.5H7.5"/></svg>
+              </span>
+              <span class="service-faq__eyelet" aria-hidden="true"></span>
+              <svg class="service-faq-ribbon" viewBox="0 0 120 340" fill="none" aria-hidden="true" focusable="false">
+                <g stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M60 59C55 43 43 12 57 8C79 1 73 33 60 59Z"/>
+                  <path d="M59 62C35 38 7 40 10 55C13 69 39 64 59 62ZM62 63C83 43 111 50 108 62C105 76 82 69 62 63Z"/>
+                  <path d="M56 69C51 122 56 185 52 243C52 255 56 260 60 263M64 69C68 127 61 189 66 244C66 255 63 259 60 263"/>
+                  <g>
+                    <path d="M60 260C50 268 53 276 49 291C46 307 46 322 44 331M59 269C52 289 55 315 49 333M60 269C57 293 58 316 54 333M62 269C61 289 60 316 59 334M63 269C64 291 64 315 65 334M64 270C68 294 69 319 70 333M65 272C73 294 73 318 76 331"/>
+                    <path d="M60 258C54 261 52 269 53 277L67 277C69 269 66 262 60 258Z" fill="currentColor"/>
+                  </g>
+                </g>
+              </svg>
+              <h3 class="faq__heading">
+                <button id="faq-q1" type="button" class="faq__question" aria-expanded="false" aria-controls="faq-a1">
+                  <span>Are you available for freelance projects?</span>
+                  <span class="faq__icon" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div id="faq-a1" class="faq__answer" role="region" aria-labelledby="faq-q1" inert>
+                <div class="faq__answer-inner">
+                  <p>Yes! I'm currently available for freelance and contract work alongside my MCA studies. I take on web development, AI integration, API building, and automation projects. The best way to start is to <a href="#contact">reach out via the contact form</a> with your project details.</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="faq__item" style="--i:2">
+              <span class="service-faq__shoulder" aria-hidden="true">
+                <svg class="service-faq__corner service-faq__corner--top" viewBox="0 0 20 20"><path d="M20 .5L.5 20"/></svg>
+                <svg class="service-faq__corner service-faq__corner--bottom" viewBox="0 0 20 20"><path d="M.5 0L20 19.5"/></svg>
+              </span>
+              <span class="service-faq-ornament" aria-hidden="true">
+                <span class="service-faq-ornament__frame"></span>
+                <span class="service-faq-ornament__shoulder">
+                  <svg class="service-faq-ornament__cut service-faq-ornament__cut--top" viewBox="0 0 14 14"><path d="M14 .5L.5 14"/></svg>
+                  <svg class="service-faq-ornament__cut service-faq-ornament__cut--bottom" viewBox="0 0 14 14"><path d="M.5 0L14 13.5"/></svg>
+                </span>
+                <svg class="service-faq-ornament__corner service-faq-ornament__corner--top" viewBox="0 0 24 24"><path d="M1 4.5H19.5V23M1 10.5H13.5V17.5H7.5"/></svg>
+                <svg class="service-faq-ornament__corner service-faq-ornament__corner--bottom" viewBox="0 0 24 24"><path d="M1 4.5H19.5V23M1 10.5H13.5V17.5H7.5"/></svg>
+              </span>
+              <span class="service-faq__eyelet" aria-hidden="true"></span>
+              <h3 class="faq__heading">
+                <button id="faq-q2" type="button" class="faq__question" aria-expanded="false" aria-controls="faq-a2">
+                  <span>What kind of AI projects can you build?</span>
+                  <span class="faq__icon" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div id="faq-a2" class="faq__answer" role="region" aria-labelledby="faq-q2" inert>
+                <div class="faq__answer-inner">
+                  <p>I build RAG (Retrieval-Augmented Generation) systems, LLM-powered chatbots, document analysis tools, AI code reviewers, and custom ML pipelines. I use OpenAI, Gemini, LangChain, and open-source models depending on the requirement.</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="faq__item" style="--i:3">
+              <span class="service-faq__shoulder" aria-hidden="true">
+                <svg class="service-faq__corner service-faq__corner--top" viewBox="0 0 20 20"><path d="M20 .5L.5 20"/></svg>
+                <svg class="service-faq__corner service-faq__corner--bottom" viewBox="0 0 20 20"><path d="M.5 0L20 19.5"/></svg>
+              </span>
+              <span class="service-faq-ornament" aria-hidden="true">
+                <span class="service-faq-ornament__frame"></span>
+                <span class="service-faq-ornament__shoulder">
+                  <svg class="service-faq-ornament__cut service-faq-ornament__cut--top" viewBox="0 0 14 14"><path d="M14 .5L.5 14"/></svg>
+                  <svg class="service-faq-ornament__cut service-faq-ornament__cut--bottom" viewBox="0 0 14 14"><path d="M.5 0L14 13.5"/></svg>
+                </span>
+                <svg class="service-faq-ornament__corner service-faq-ornament__corner--top" viewBox="0 0 24 24"><path d="M1 4.5H19.5V23M1 10.5H13.5V17.5H7.5"/></svg>
+                <svg class="service-faq-ornament__corner service-faq-ornament__corner--bottom" viewBox="0 0 24 24"><path d="M1 4.5H19.5V23M1 10.5H13.5V17.5H7.5"/></svg>
+              </span>
+              <span class="service-faq__eyelet" aria-hidden="true"></span>
+              <h3 class="faq__heading">
+                <button id="faq-q3" type="button" class="faq__question" aria-expanded="false" aria-controls="faq-a3">
+                  <span>How do you communicate during a project?</span>
+                  <span class="faq__icon" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div id="faq-a3" class="faq__answer" role="region" aria-labelledby="faq-q3" inert>
+                <div class="faq__answer-inner">
+                  <p>I communicate primarily via email, WhatsApp, or scheduled video calls. I provide weekly progress updates, maintain a shared project board, and am responsive during IST business hours. For urgent issues, I aim to respond within a few hours.</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+        </section>
+
+      </div><!-- /.home__content -->
+
+      <!-- ===== CONTACT / POSTCARD SECTION ===== -->
+      <section class="home-contact" id="contact" aria-labelledby="contact-heading">
+        <div class="home-contact__inner p-wrap">
+          <div class="home-contact__head" data-reveal="title">
+            <span class="home-contact__eyebrow" lang="ja">お問い合わせ</span>
+            <h2 id="contact-heading" class="p-title p-title--section">
+              <span class="p-title__mask">
+                <span class="p-title__text">Let's build <em>together</em></span>
+              </span>
+            </h2>
+          </div>
+
+          <div class="home-contact__layout">
+          <!-- Postcard contact card -->
+          <div class="postcard" id="postcardWidget" data-cursor="SEND">
+            <div class="postcard__front">
+              <div class="postcard__header">
+                <span class="postcard__stamp">
+                  <span class="postcard__stamp-kanji">連</span>
+                </span>
+                <span class="postcard__from">FROM:<br>Mohammed Basith</span>
+              </div>
+              <div class="postcard__address">
+                <p class="postcard__to">TO: <em>You</em></p>
+                <p class="postcard__greeting">Hello! I'm excited to hear about your project. Let's create something great together.</p>
+                <div class="postcard__links">
+                  <a href="mailto:mohammedbasith1@gmail.com" class="postcard__link">mohammedbasith1@gmail.com</a>
+                  <a href="https://linkedin.com/in/mohammedbasith1" target="_blank" rel="noopener" class="postcard__link">LinkedIn</a>
+                  <a href="https://github.com/mohammedbasith" target="_blank" rel="noopener" class="postcard__link">GitHub</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="contact-form__group">
+              <label class="contact-form__label" for="contactName">Your name</label>
+              <input id="contactName" class="contact-form__input" type="text" name="name" placeholder="Jane Smith" autocomplete="name" required>
+            </div>
+            <div class="contact-form__group">
+              <label class="contact-form__label" for="contactEmail">Email address</label>
+              <input id="contactEmail" class="contact-form__input" type="email" name="email" placeholder="jane@example.com" autocomplete="email" required>
+            </div>
+            <div class="contact-form__group">
+              <label class="contact-form__label" for="contactMessage">Tell me about your project</label>
+              <textarea id="contactMessage" class="contact-form__textarea" name="message" rows="4" placeholder="I'm looking for help with..." required></textarea>
+            </div>
+            <button type="submit" class="contact-form__submit contact-postcard-cta">
+              <span class="contact-postcard-cta__label">Send message</span>
+              <span class="contact-postcard-cta__kanji">送信</span>
+            </button>
+          </form>
+          </div><!-- /.home-contact__layout -->
+        </div>
+      </section>
+
+    </main><!-- /main.home -->
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer p-wrap">
+      <div class="site-footer__inner">
+        <div class="site-footer__brand">
+          <a href="#hero" class="site-footer__logo" aria-label="Back to top">
+            <svg viewBox="0 0 125 32" fill="none" width="100" aria-hidden="true">
+              <text x="0" y="24" font-family="'Kanit', sans-serif" font-weight="700" font-size="22" fill="currentColor" letter-spacing="-1">BASITH</text>
+              <circle cx="115" cy="16" r="6" fill="#d62828"/>
+            </svg>
+          </a>
+          <p class="site-footer__tagline">Full-Stack Developer &amp; AI Engineer</p>
+          <p class="site-footer__location">📍 Ernakulam, Kerala, India</p>
+        </div>
+
+        <nav class="site-footer__nav" aria-label="Footer Navigation">
+          <div class="site-footer__nav-group">
+            <span class="site-footer__nav-label">Navigate</span>
+            <a href="#hero" class="site-footer__link">Home</a>
+            <a href="#projects" class="site-footer__link">Projects</a>
+            <a href="#experience" class="site-footer__link">Experience</a>
+            <a href="#faq" class="site-footer__link">FAQ</a>
+            <a href="#contact" class="site-footer__link">Contact</a>
+          </div>
+          <div class="site-footer__nav-group">
+            <span class="site-footer__nav-label">Capabilities</span>
+            <a href="#projects" class="site-footer__link">Web Development</a>
+            <a href="#projects" class="site-footer__link">AI &amp; Python</a>
+            <a href="#projects" class="site-footer__link">Full-Stack Apps</a>
+            <a href="#projects" class="site-footer__link">Automation</a>
+          </div>
+          <div class="site-footer__nav-group">
+            <span class="site-footer__nav-label">Connect</span>
+            <a href="https://linkedin.com/in/mohammedbasith1" target="_blank" rel="noopener" class="site-footer__link">LinkedIn</a>
+            <a href="https://github.com/mohammedbasith" target="_blank" rel="noopener" class="site-footer__link">GitHub</a>
+            <a href="mailto:mohammedbasith1@gmail.com" class="site-footer__link">Email</a>
+          </div>
+        </nav>
+      </div>
+
+      <div class="site-footer__bottom">
+        <p class="site-footer__copy">© 2024 Mohammed Basith. Crafted with ❤️ and lots of ☕</p>
+        <p class="site-footer__kanji" lang="ja" aria-hidden="true">ものづくり</p>
+      </div>
+    </footer>
+
+  </div><!-- /#__nuxt -->
+
+  <!-- WhatsApp floating button -->
+  <a href="https://wa.me/919876543210" class="whatsapp-icon" target="_blank" rel="noopener" aria-label="Contact on WhatsApp" id="whatsappBtn">
+    <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="48" height="48" rx="12" fill="#25D366"/>
+      <path d="M24 10C16.268 10 10 16.268 10 24c0 2.526.68 4.89 1.864 6.928L10 38l7.286-1.83A13.94 13.94 0 0 0 24 38c7.732 0 14-6.268 14-14S31.732 10 24 10Zm0 2c6.617 0 12 5.383 12 12s-5.383 12-12 12a11.95 11.95 0 0 1-6.13-1.688l-.44-.27-4.567 1.146 1.172-4.448-.294-.46A11.95 11.95 0 0 1 12 24c0-6.617 5.383-12 12-12Zm-3.5 6c-.333 0-.857.125-1.313.625C18.73 19.125 17.5 20.5 17.5 23.25c0 2.75 1.969 5.406 2.219 5.781.25.375 3.875 6.25 9.469 8.531C31 38.25 31 37.375 31.563 37.063c.562-.313 3.437-1.75 3.937-3.438.5-1.688.5-3.125.25-3.438-.25-.312-.688-.5-1.438-.875-.75-.375-3.437-1.75-3.937-2.063-.5-.312-.875-.5-1.25.063-.375.563-1.438 1.875-1.813 2.25-.375.375-.688.438-1.25.125C24.5 29.375 22.75 28.5 21.25 26.875c-1.25-1.438-2.125-3.25-2.375-3.688-.25-.437-.063-.688.188-.937.188-.188.563-.625.688-.813.125-.188.25-.438.375-.688.125-.25.063-.5-.062-.688C20 20.5 19.188 18.563 18.813 17.75 18.563 17.188 18.25 17 18 17c-.219 0-.5-.063-.75 0C17 17 16.875 17 16.5 17Z" fill="white"/>
+    </svg>
+  </a>
+
+  <script src="./main.js" type="module"></script>
+</body>
+</html>

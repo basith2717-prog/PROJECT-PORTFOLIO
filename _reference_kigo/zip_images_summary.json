@@ -1,0 +1,578 @@
+[
+  {
+    "file": "28d4f081-e6de-49c4-ae09-4216067781bf.svg",
+    "size": 2147,
+    "dims": null,
+    "ext": ".svg"
+  },
+  {
+    "file": "4394774d-a5ae-4dbb-b75d-9092ff29ab25.svg",
+    "size": 29921,
+    "dims": null,
+    "ext": ".svg"
+  },
+  {
+    "file": "53deb5a2-4059-4907-8b60-068f421b4e4a.svg",
+    "size": 1321,
+    "dims": null,
+    "ext": ".svg"
+  },
+  {
+    "file": "cdfda23e-d18e-46a1-b337-bd76a03bc844.svg",
+    "size": 2880,
+    "dims": null,
+    "ext": ".svg"
+  },
+  {
+    "file": "clients-dance-pose-1-v6.webp",
+    "size": 552682,
+    "dims": "1024x1536",
+    "ext": ".webp"
+  },
+  {
+    "file": "clients-dance-pose-2-v6.webp",
+    "size": 549446,
+    "dims": "1024x1536",
+    "ext": ".webp"
+  },
+  {
+    "file": "ea543cb5-c79a-49b9-a6f6-526d7eaa98dd.svg",
+    "size": 10857,
+    "dims": null,
+    "ext": ".svg"
+  },
+  {
+    "file": "eb628eca-3e90-4e55-9c0f-cc023e6ae770.svg",
+    "size": 307,
+    "dims": null,
+    "ext": ".svg"
+  },
+  {
+    "file": "fa8348bb-ca6d-43b2-b77a-d4cd28cb8c90.svg",
+    "size": 11459,
+    "dims": null,
+    "ext": ".svg"
+  },
+  {
+    "file": "ff6ad29d-abba-4680-8c05-37ae30a4ca84.svg",
+    "size": 479,
+    "dims": null,
+    "ext": ".svg"
+  },
+  {
+    "file": "hollywood-wordmark.svg",
+    "size": 2348,
+    "dims": null,
+    "ext": ".svg"
+  },
+  {
+    "file": "images.gif",
+    "size": 54585,
+    "dims": "407x304",
+    "ext": ".gif"
+  },
+  {
+    "file": "images.webp",
+    "size": 7062,
+    "dims": "130x130",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_1.webp",
+    "size": 35430,
+    "dims": "320x480",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_10.webp",
+    "size": 1428,
+    "dims": "108x108",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_11.webp",
+    "size": 28132,
+    "dims": "1774x887",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_12.webp",
+    "size": 6764,
+    "dims": "130x130",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_13.webp",
+    "size": 28054,
+    "dims": "252x378",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_14.webp",
+    "size": 6548,
+    "dims": "130x130",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_15.webp",
+    "size": 15978,
+    "dims": "287x104",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_16.webp",
+    "size": 2780,
+    "dims": "290x94",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_17.webp",
+    "size": 13650,
+    "dims": "240x240",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_18.webp",
+    "size": 3348,
+    "dims": "287x46",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_19.webp",
+    "size": 155378,
+    "dims": "720x1080",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_2.webp",
+    "size": 28132,
+    "dims": "1774x887",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_20.webp",
+    "size": 186074,
+    "dims": "640x960",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_21.webp",
+    "size": 79126,
+    "dims": "480x720",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_22.webp",
+    "size": 79868,
+    "dims": "640x640",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_23.webp",
+    "size": 11730,
+    "dims": "160x240",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_24.webp",
+    "size": 92812,
+    "dims": "768x512",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_25.webp",
+    "size": 5216,
+    "dims": "143x52",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_26.webp",
+    "size": 2124,
+    "dims": "160x160",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_27.webp",
+    "size": 39410,
+    "dims": "320x480",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_28.webp",
+    "size": 23578,
+    "dims": "240x360",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_29.webp",
+    "size": 8434,
+    "dims": "290x85",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_3.webp",
+    "size": 11936,
+    "dims": "290x143",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_30.webp",
+    "size": 3498,
+    "dims": "145x42",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_31.webp",
+    "size": 16634,
+    "dims": "160x240",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_32.webp",
+    "size": 5232,
+    "dims": "160x160",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_33.webp",
+    "size": 11378,
+    "dims": "160x240",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_34.webp",
+    "size": 50362,
+    "dims": "360x540",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_35.webp",
+    "size": 2144,
+    "dims": "320x160",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_36.webp",
+    "size": 6128,
+    "dims": "130x130",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_37.webp",
+    "size": 59310,
+    "dims": "480x480",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_38.webp",
+    "size": 11954,
+    "dims": "1024x512",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_39.webp",
+    "size": 109936,
+    "dims": "640x640",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_4.webp",
+    "size": 19634,
+    "dims": "320x320",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_40.webp",
+    "size": 51740,
+    "dims": "240x360",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_41.webp",
+    "size": 85386,
+    "dims": "320x480",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_42.webp",
+    "size": 118852,
+    "dims": "640x960",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_43.webp",
+    "size": 5470,
+    "dims": "160x160",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_44.webp",
+    "size": 9042,
+    "dims": "128x192",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_45.webp",
+    "size": 23756,
+    "dims": "240x360",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_46.webp",
+    "size": 7516,
+    "dims": "767x384",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_47.webp",
+    "size": 840,
+    "dims": "54x54",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_48.webp",
+    "size": 54802,
+    "dims": "320x480",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_49.webp",
+    "size": 12492,
+    "dims": "240x240",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_5.webp",
+    "size": 3376,
+    "dims": "65x65",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_50.webp",
+    "size": 1624,
+    "dims": "143x23",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_51.webp",
+    "size": 20990,
+    "dims": "1536x768",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_52.webp",
+    "size": 16312,
+    "dims": "1280x640",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_53.webp",
+    "size": 2610,
+    "dims": "65x65",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_54.webp",
+    "size": 5516,
+    "dims": "160x160",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_55.webp",
+    "size": 26730,
+    "dims": "256x384",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_56.webp",
+    "size": 118092,
+    "dims": "640x640",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_57.webp",
+    "size": 4854,
+    "dims": "240x240",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_58.webp",
+    "size": 28132,
+    "dims": "1774x887",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_59.webp",
+    "size": 46282,
+    "dims": "640x640",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_6.webp",
+    "size": 4556,
+    "dims": "145x71",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_60.webp",
+    "size": 25700,
+    "dims": "320x320",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_61.webp",
+    "size": 87242,
+    "dims": "504x756",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_62.webp",
+    "size": 2268,
+    "dims": "65x65",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_63.webp",
+    "size": 22786,
+    "dims": "480x480",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_64.webp",
+    "size": 133696,
+    "dims": "640x960",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_65.webp",
+    "size": 2442,
+    "dims": "65x65",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_66.webp",
+    "size": 179688,
+    "dims": "480x720",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_67.webp",
+    "size": 292520,
+    "dims": "640x960",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_68.webp",
+    "size": 141288,
+    "dims": "896x896",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_69.webp",
+    "size": 5794,
+    "dims": "639x320",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_7.webp",
+    "size": 11728,
+    "dims": "240x240",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_70.webp",
+    "size": 8032,
+    "dims": "799x400",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_71.webp",
+    "size": 65936,
+    "dims": "480x480",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_72.webp",
+    "size": 9126,
+    "dims": "320x320",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_73.webp",
+    "size": 39660,
+    "dims": "240x360",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_74.webp",
+    "size": 25008,
+    "dims": "160x240",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_75.webp",
+    "size": 9780,
+    "dims": "130x130",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_76.webp",
+    "size": 45146,
+    "dims": "480x480",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_77.webp",
+    "size": 23432,
+    "dims": "320x320",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_78.webp",
+    "size": 120444,
+    "dims": "480x720",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_79.webp",
+    "size": 2912,
+    "dims": "400x200",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_8.webp",
+    "size": 2526,
+    "dims": "65x65",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_80.webp",
+    "size": 80620,
+    "dims": "480x720",
+    "ext": ".webp"
+  },
+  {
+    "file": "images_9.webp",
+    "size": 1440,
+    "dims": "145x47",
+    "ext": ".webp"
+  },
+  {
+    "file": "logo.png",
+    "size": 2156,
+    "dims": "198x198",
+    "ext": ".png"
+  },
+  {
+    "file": "og-en.jpg.jpeg",
+    "size": 527331,
+    "dims": "1200x630",
+    "ext": ".jpeg"
+  },
+  {
+    "file": "televisa.svg",
+    "size": 3707,
+    "dims": null,
+    "ext": ".svg"
+  }
+]

@@ -1,0 +1,206 @@
+<div class='scrollable' id=''> 
+  <div class='home__content' id=''> 
+    <div class='home__group' id=''> 
+      <div class='hero' id=''> 
+        <div class='hero__landscape' id=''> 
+        <div class='home-petals home-petals--background hero__back-petals' id=''> [ ]
+          <div class='home-petals__fall' id=''> 
+          <div class='home-petals__fall' id=''> 
+          <div class='home-petals__fall' id=''> 
+          <div class='home-petals__fall' id=''> 
+        <div class='sakura-hero hero__artwork' id=''> 
+        <div class='hero__content' id=''> 
+          <div class='hero-title is-paused' id=''> 
+            <div class='hero-title__above' id=''> [ ]
+            <h1 class='hero-title__heading' id=''> 
+              <span class='visually-hidden' id=''> Make your website cool. Make your app profitable. Make your tasks automatic.
+              <span class='hero-title__line' id=''> 
+                <span class='hero-title__prefix' id=''> Make your
+              <span class='hero-title__line hero-title__line--rotating' id=''> 
+                <span class='hero-title__word-mask' id=''> 
+                  <span class='is-idle hero-title__word' id=''> website
+                <em class='hero-title__accent' id=''> 
+                  <span class='hero-title__accent-text' id=''> cool
+                <span class='hero-title__sizer' id=''> [ ]
+                    <em class='hero-title__accent' id=''> cool
+                    <em class='hero-title__accent' id=''> profitable
+                    <em class='hero-title__accent' id=''> automatic
+            <canvas class='hero-title__petals' id=''> 
+          <p class='hero__description' id=''> Web experiences that turn heads. App development that means business. Workflow a
+      <section class='home-clients' id=''> 
+        <div class='home-clients__head' id=''> 
+          <p class='home-clients__haiku' id=''> 希望なら、 何でも出来る
+          <div class='home-reel home-clients__reel' id=''> 
+            <div class='home-reel__stage' id=''> 
+              <button class='home-reel__close' id=''> 
+            <button class='home-reel__poster' id=''> 
+              <span class='home-reel__title' id=''> 
+                <span class='home-reel__name' id=''> Studio Reel
+                <span class='home-reel__year' id=''> 2026
+                <span class='home-reel__dot' id=''> 
+              <span class='home-reel__play' id=''> 
+          <h2 class='home-clients__title' id='clients-heading'> 
+            <span class='home-clients__title-text' id=''> [ ]
+              <span class='home-clients__title-line' id=''> 
+              <span class='home-clients__title-line' id=''> 
+        <div class='home-clients__layout' id=''> 
+          <img class='home-clients__background' id=''> 
+          <div class='home-petals home-petals--background' id=''> [ ]
+            <div class='home-petals__fall' id=''> 
+            <div class='home-petals__fall' id=''> 
+            <div class='home-petals__fall' id=''> 
+            <div class='home-petals__fall' id=''> 
+          <div class='home-clients__logos' id=''> 
+            <img class='home-clients__logo-flowers' id=''> 
+            <ul class='home-clients__grid' id=''> [ ]
+              <li class='home-clients__cell' id=''> 
+                <div class='home-clients__identity' id=''> 
+                  <div class='home-clients__mark' id=''> 
+              <li class='home-clients__cell' id=''> 
+                <div class='home-clients__identity' id=''> 
+                  <div class='home-clients__mark' id=''> 
+              <li class='home-clients__cell' id=''> 
+                <div class='home-clients__identity' id=''> 
+                  <div class='home-clients__mark' id=''> 
+              <li class='home-clients__cell' id=''> 
+                <div class='home-clients__identity' id=''> 
+                  <div class='home-clients__mark' id=''> 
+              <li class='home-clients__cell' id=''> 
+                <div class='home-clients__identity' id=''> 
+                  <div class='home-clients__mark' id=''> 
+              <li class='home-clients__cell' id=''> 
+                <div class='home-clients__identity' id=''> 
+                  <div class='home-clients__mark' id=''> 
+              <li class='home-clients__cell' id=''> 
+                <div class='home-clients__identity' id=''> 
+                  <div class='home-clients__mark' id=''> 
+              <li class='home-clients__cell home-clients__cell--more' id=''> 
+                <div class='home-clients__identity' id=''> 
+                  <span class='home-clients__more' id=''> and more
+          <figure class='home-clients__figure' id=''> 
+            <div class='client-dancer' id=''> [ ]
+              <img class='client-dancer__pose' id=''> 
+              <img class='client-dancer__pose' id=''> 
+      <section class='service-faq p-wrap' id=''> 
+        <div class='service-faq__head' id=''> [ ]
+          <h2 class='p-title p-title--section' id='home-faqs-heading'> 
+            <span class='p-title__mask' id=''> 
+              <span class='p-title__text' id=''> [ [ Frequently asked ] ] [ [ ] ]
+          <div class='service-faq__omamori' id=''> 
+          <div class='home__faq-flowers' id=''> [ ]
+            <img class='home__faq-flowers--upper' id=''> 
+            <img class='home__faq-flowers--middle' id=''> 
+            <img class='home__faq-flowers--lower' id=''> 
+        <ul class='faq faq--uniform service-faq__list' id=''> [ ]
+          <li class='is-open faq__item' id=''> [ ]
+            <span class='service-faq__shoulder' id=''> 
+            <span class='service-faq-ornament' id=''> 
+              <span class='service-faq-ornament__art' id=''> 
+                <img class='service-faq-ornament__flower' id=''> 
+              <span class='service-faq-ornament__frame' id=''> 
+              <span class='service-faq-ornament__shoulder' id=''> 
+            <span class='service-faq__eyelet' id=''> 
+            <h3 class='faq__heading' id=''> 
+              <button class='faq__question' id='v-3-q0'> [ ]
+                <span class='faq__icon' id=''> 
+            <div class='faq__answer' id='v-3-a0'> 
+              <div class='faq__answer-inner' id=''> 
+                  <a class='' id=''> Explore our work
+          <li class='faq__item' id=''> [ ]
+            <span class='service-faq__shoulder' id=''> 
+            <span class='service-faq-ornament' id=''> 
+              <span class='service-faq-ornament__art' id=''> 
+                <img class='service-faq-ornament__flower' id=''> 
+              <span class='service-faq-ornament__frame' id=''> 
+              <span class='service-faq-ornament__shoulder' id=''> 
+            <span class='service-faq__eyelet' id=''> 
+            <h3 class='faq__heading' id=''> 
+              <button class='faq__question' id='v-3-q1'> [ ]
+                <span class='faq__icon' id=''> 
+            <div class='faq__answer' id='v-3-a1'> 
+              <div class='faq__answer-inner' id=''> 
+                  <a class='' id=''> request a project quote
+          <li class='faq__item' id=''> [ ]
+            <span class='service-faq__shoulder' id=''> 
+            <span class='service-faq-ornament' id=''> 
+              <span class='service-faq-ornament__art' id=''> 
+                <img class='service-faq-ornament__flower' id=''> 
+              <span class='service-faq-ornament__frame' id=''> 
+              <span class='service-faq-ornament__shoulder' id=''> 
+            <span class='service-faq__eyelet' id=''> 
+            <h3 class='faq__heading' id=''> 
+              <button class='faq__question' id='v-3-q2'> [ ]
+                <span class='faq__icon' id=''> 
+            <div class='faq__answer' id='v-3-a2'> 
+              <div class='faq__answer-inner' id=''> 
+                  <a class='' id=''> Discuss your MVP
+          <li class='faq__item' id=''> [ ]
+            <span class='service-faq__shoulder' id=''> 
+            <span class='service-faq-ornament' id=''> 
+              <span class='service-faq-ornament__art' id=''> 
+                <img class='service-faq-ornament__flower' id=''> 
+              <span class='service-faq-ornament__frame' id=''> 
+              <span class='service-faq-ornament__shoulder' id=''> 
+            <span class='service-faq__eyelet' id=''> 
+            <h3 class='faq__heading' id=''> 
+              <button class='faq__question' id='v-3-q3'> [ ]
+                <span class='faq__icon' id=''> 
+            <div class='faq__answer' id='v-3-a3'> 
+              <div class='faq__answer-inner' id=''> 
+                  <a class='' id=''> website design and redesign
+          <li class='faq__item' id=''> [ ]
+            <span class='service-faq__shoulder' id=''> 
+            <span class='service-faq-ornament' id=''> 
+              <span class='service-faq-ornament__art' id=''> 
+                <img class='service-faq-ornament__flower' id=''> 
+              <span class='service-faq-ornament__frame' id=''> 
+              <span class='service-faq-ornament__shoulder' id=''> 
+            <span class='service-faq__eyelet' id=''> 
+            <h3 class='faq__heading' id=''> 
+              <button class='faq__question' id='v-3-q4'> [ ]
+                <span class='faq__icon' id=''> 
+            <div class='faq__answer' id='v-3-a4'> 
+              <div class='faq__answer-inner' id=''> 
+                  <a class='' id=''> app development services
+          <li class='faq__item' id=''> [ ]
+            <span class='service-faq__shoulder' id=''> 
+            <span class='service-faq-ornament' id=''> 
+              <span class='service-faq-ornament__art' id=''> 
+                <img class='service-faq-ornament__flower' id=''> 
+              <span class='service-faq-ornament__frame' id=''> 
+              <span class='service-faq-ornament__shoulder' id=''> 
+            <span class='service-faq__eyelet' id=''> 
+            <h3 class='faq__heading' id=''> 
+              <button class='faq__question' id='v-3-q5'> [ ]
+                <span class='faq__icon' id=''> 
+            <div class='faq__answer' id='v-3-a5'> 
+              <div class='faq__answer-inner' id=''> 
+                  <a class='' id=''> business process automation services
+          <li class='faq__item' id=''> [ ]
+            <span class='service-faq__shoulder' id=''> 
+            <span class='service-faq-ornament' id=''> 
+              <span class='service-faq-ornament__art' id=''> 
+                <img class='service-faq-ornament__flower' id=''> 
+              <span class='service-faq-ornament__frame' id=''> 
+              <span class='service-faq-ornament__shoulder' id=''> 
+            <span class='service-faq__eyelet' id=''> 
+            <h3 class='faq__heading' id=''> 
+              <button class='faq__question' id='v-3-q6'> [ ]
+                <span class='faq__icon' id=''> 
+            <div class='faq__answer' id='v-3-a6'> 
+              <div class='faq__answer-inner' id=''> 
+                  <a class='' id=''> ecommerce and integration services
+          <li class='faq__item' id=''> [ ]
+            <span class='service-faq__shoulder' id=''> 
+            <span class='service-faq-ornament' id=''> 
+              <span class='service-faq-ornament__art' id=''> 
+                <img class='service-faq-ornament__flower' id=''> 
+              <span class='service-faq-ornament__frame' id=''> 
+              <span class='service-faq-ornament__shoulder' id=''> 
+            <span class='service-faq__eyelet' id=''> 
+            <h3 class='faq__heading' id=''> 
+              <button class='faq__question' id='v-3-q7'> [ ]
+                <span class='faq__icon' id=''> 
+            <div class='faq__answer' id='v-3-a7'> 
+              <div class='faq__answer-inner' id=''> 
+                  <a class='' id=''> Book a 15-minute call or send your project details

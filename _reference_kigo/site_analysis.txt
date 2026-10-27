@@ -1,0 +1,61 @@
+=== TITLE & META ===
+Web Experiences, Apps &amp; Automation | Kigo Studio
+
+=== FONTS & ASSETS ===
+/_nuxt/entry.Bmo6-XxB.css
+/_nuxt/entry.Bmo6-XxB.css
+/_nuxt/index.CY5he_ku.css
+/_nuxt/index.CY5he_ku.css
+/_nuxt/HomeTeam.gle-pIYe.css
+/_nuxt/HomeTeam.gle-pIYe.css
+/_nuxt/MoreCalligraphy.DceKB5ZG.css
+/_nuxt/MoreCalligraphy.DceKB5ZG.css
+/_nuxt/IllustratedFaq.CKUH9x3P.css
+/_nuxt/IllustratedFaq.CKUH9x3P.css
+/fonts/Poppins-700.woff2
+/_nuxt/WorkSection.DUSwICN7.css
+/_nuxt/useWorkProjects.Dt8yYixg.css
+/_nuxt/WorkPostcard.C34s6Bd8.css
+/_nuxt/ProjectCardMarks.VZ1WhnK8.css
+/.netlify/images?fm=webp&amp;q=75&amp;w=896&amp;url=%2Fimages%2Fsakura%2Fink-watercolor-entry-v2.webp
+/.netlify/images?fm=webp&amp;q=75&amp;w=896&amp;url=%2Fimages%2Fsakura%2Fink-watercolor-entry-v2.webp
+/.netlify/images?fm=webp&amp;q=75&amp;w=896&amp;url=%2Fimages%2Fsakura%2Fink-watercolor-entry-v2.webp
+/.netlify/images?fm=webp&amp;q=75&amp;w=896&amp;url=%2Fimages%2Fsakura%2Fink-watercolor-entry-v2.webp
+/.netlify/images?fm=webp&amp;q=75&amp;w=896&amp;url=%2Fimages%2Fsakura%2Fink-watercolor-entry-v2.webp
+/.netlify/images?fm=webp&amp;q=75&amp;w=896&amp;url=%2Fimages%2Fsakura%2Fink-watercolor-entry-v2.webp
+/.netlify/images?fm=webp&amp;q=75&amp;w=896&amp;url=%2Fimages%2Fsakura%2Fink-watercolor-entry-v2.webp
+/.netlify/images?fm=webp&amp;q=75&amp;w=896&amp;url=%2Fimages%2Fsakura%2Fink-watercolor-entry-v2.webp
+/.netlify/images?fm=webp&amp;q=75&amp;w=896&amp;url=%2Fimages%2Fsakura%2Fink-watercolor-entry-v2.webp
+/.netlify/images?fm=webp&amp;q=75&amp;w=896&amp;url=%2Fimages%2Fsakura%2Fink-watercolor-entry-v2.webp
+/.netlify/images?fm=webp&amp;q=75&amp;w=896&amp;url=%2Fimages%2Fsakura%2Fink-watercolor-entry-v2.webp
+/.netlify/images?fm=webp&amp;q=75&amp;w=896&amp;url=%2Fimages%2Fsakura%2Fink-watercolor-entry-v2.webp
+/.netlify/images?fm=webp&amp;q=75&amp;w=896&amp;url=%2Fimages%2Fsakura%2Fink-watercolor-entry-v2.webp
+
+=== MAIN CHILDREN (3) ===
+<div class='['shadow-main']' id=''>
+<div class='['home-petals', 'home-petals--foreground']' id=''>
+<div class='['scrollable']' id=''>
+
+=== ALL SECTIONS ===
+<header class='header header--paper header--wide' id=''> -> Websites
+<section class='home-clients' id=''> -> Some of ourclients
+<section class='service-faq p-wrap' id=''> -> Frequently askedquestions
+
+=== HERO INNER TEXT ===
+Make your website cool. Make your app profitable. Make your tasks automatic. | Make your | website | cool | website | cool | app | profitable | tasks | automatic | Web experiences that turn heads. App development that means business. Workflow automation that gives you your day back.
+
+=== CLIENTS INNER TEXT ===
+希望なら、 | 何でも出来る | Studio Reel | 2026 | Some of our | clients | and more
+
+=== SERVICES COUNT: 145 ===
+Websites | Ecommerce | Apps | Automations
+Websites | Ecommerce | Apps | Automations
+Websites | Ecommerce | Apps | Automations
+Websites
+Websites
+
+=== FAQ COUNT: 166 ===
+Frequently asked | questions | How do I choose a software development agency in Mexico? | Look for relevant work, direct access to the people building your product, and a proposal that explains scope, testing and launch. Ask who handles design, engineering and decisions when requirements change. Kigo Studio brings senior designers and engineers together for websites, mobile apps, ecommerce and automation. | Explore our work | to see whether our experience fits your project. | How much does a web
+Frequently asked | questions
+
+
